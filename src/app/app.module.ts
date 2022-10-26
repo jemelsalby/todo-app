@@ -13,7 +13,13 @@ import { TodoComponent } from './todo/todo.component';
 
 const routes:Routes=[
   {
-
+    path:"",component:SigninComponent
+  },
+  {
+    path:"signup",component:SignupComponent
+  },
+  {
+    path:"todo",component:TodoComponent
   }
 ]
 
