@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SigninComponent } from './signin/signin.component';
 import { FormsModule } from '@angular/forms';
+import { SignupComponent } from './signup/signup.component';
 
 
 const routes:Routes=[
@@ -20,7 +21,8 @@ const routes:Routes=[
   declarations: [
     AppComponent,
     NavbarComponent,
-    SigninComponent
+    SigninComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
