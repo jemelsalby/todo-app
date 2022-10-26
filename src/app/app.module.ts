@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SigninComponent } from './signin/signin.component';
 import { FormsModule } from '@angular/forms';
 import { SignupComponent } from './signup/signup.component';
+import { TodoComponent } from './todo/todo.component';
 
 
 const routes:Routes=[
@@ -22,7 +23,8 @@ const routes:Routes=[
     AppComponent,
     NavbarComponent,
     SigninComponent,
-    SignupComponent
+    SignupComponent,
+    TodoComponent
   ],
   imports: [
     BrowserModule,
